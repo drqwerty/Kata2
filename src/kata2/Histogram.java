@@ -5,9 +5,10 @@ import java.util.Map;
 
 public class Histogram {
 
-    private final int[] DATA = {1, 1, 1, 100, 2, 4, 5, 6, 8, 8, 4, 5, 6, 2, -4};
+    private final int[] DATA;
 
-    public Histogram() {
+    public Histogram(int[] data) {
+        DATA = data;
     }
 
     public int[] getDATA() {
